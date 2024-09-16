@@ -1,0 +1,204 @@
+{
+	"name": "Wrath",
+	"colors": {
+		"editor.background": "#0d1f16",
+		"editor.foreground": "#ffffff",
+
+		"sideBar.background": "#0d1f19",
+
+		"activityBar.background": "#0d1f19",
+
+		"titleBar.activeBackground": "#0d1f19",
+		"titleBar.inactiveBackground": "#0d1f19",
+
+		"tab.activeBackground": "#0d1f19",
+		"tab.inactiveBackground": "#0d1f19",
+
+		"editorGroupHeader.tabsBackground": "#0d1f19",
+
+		"statusBar.background": "#0d1f19",
+		"statusBar.foreground": "#ffffff",
+
+		"sideBarTitle.foreground": "#ffffff",
+		"editorLineNumber.activeForeground": "#c1e3f3",
+	},
+	"tokenColors": [
+		{
+			"name": "Source",
+			"scope": [
+				"source",
+			],
+			"settings": {
+				"foreground": "#eaf3e8"
+			}
+		},
+		{
+			"name": "Non semantic types",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#d3f7e1"
+			}
+		},
+		{
+			"name": "Non ptr/ref type modifier",
+			"scope": [
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#bac5c5",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Ptr/ref type modifier",
+			"scope": [
+				"storage.modifier.reference",
+				"storage.modifier.pointer"
+			],
+			"settings": {
+				"foreground": "#f2f7f7",
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#c1e3f3"
+			}
+		},
+		{
+			"name": "Operator overloads i think lol",
+			"scope": [
+				"entity.name.function.operator"
+			],
+			"settings": {
+				"foreground": "#f2f7f7"
+			}
+		},
+		{
+			"name": "functionlike operators/delete",
+			"scope": [
+				"keyword.operator.functionlike",
+				"keyword.operator.delete"
+			],
+			"settings": {
+				"foreground": "#c1e3f3"
+			}
+		},
+		{
+			"name": "using keyword",
+			"scope": [
+				"keyword.other.using.directive"
+			],
+			"settings": {
+				"foreground": "#9da1a1"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"meta.preprocessor"
+			],
+			"settings": {
+				"foreground": "#bdcaca"
+			}
+		},
+		{
+			"name": "Literals",
+			"scope": [
+				"constant",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#c0e7e5"
+			}
+		},
+		{
+			"name": "Hex/Binary literal keywords",
+			"scope": [
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#c0e7e5"
+			}
+		},
+		{
+			"name": "Control flow",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#b8ccc0"
+			}
+		},
+		{
+			"name": "Lambda captures",
+			"scope": [
+				"meta.lambda.capture"
+			],
+			"settings": {
+				"foreground": "#d3f7e1"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#c9cfcf"
+			}
+		},
+		// Cmake
+		{
+			"name": "Cmake",
+			"scope": [
+				"keyword.cmake"
+			],
+			"settings": {
+				"foreground": "#c1e3f3"
+			}
+		},
+
+		//Xml
+		{
+			"name": "XML tags",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#c1e3f3"
+			}
+		},
+		{
+			"name": "XML attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#9da1a1"
+			}
+		},
+
+		// C#
+		{
+			"name": "C# types",
+			"scope": [
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#d3f7e1"
+			}
+		},
+	],
+	"semanticTokenColors": {
+		"type": "#d3f7e1",
+		"templateType": "#d3f7e1",
+		"function": "#c8f5f1",
+		"parameter": "#f2f7f7",
+	}
+}
